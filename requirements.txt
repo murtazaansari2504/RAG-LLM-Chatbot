@@ -6,3 +6,7 @@ pypdf==3.17.0
 llama-index==0.9.44
 sentence-transformers==2.2.2
 ollama==0.0.6
+rich==13.4.2  # 1.28 compatible
+markdown-it-py==4.0.0
+pygments==2.19.2
+mdurl==0.1.2
