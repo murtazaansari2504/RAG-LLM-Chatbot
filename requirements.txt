@@ -5,4 +5,4 @@ Pillow==10.0.1
 pypdf==3.17.0
 llama-index==0.9.44
 sentence-transformers==2.2.2
-#ollama==0.0.6
+ollama==0.0.6
