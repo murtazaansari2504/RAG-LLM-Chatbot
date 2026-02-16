@@ -1,9 +1,7 @@
 import os
 os.environ["TESSDATA_PREFIX"] = r"C:\Program Files\Tesseract-OCR\tessdata"
 
-import pytesseract
-pytesseract.pytesseract.tesseract_cmd = \
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 
 import pytesseract
@@ -11,12 +9,13 @@ import streamlit as st
 from PIL import Image
 from pdf2image import convert_from_bytes
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 from pypdf import PdfReader
 
 from llama_index.core import VectorStoreIndex, Document, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+
 from llama_index.llms.ollama import Ollama
 
 # ======================================================
