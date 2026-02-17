@@ -1,5 +1,4 @@
-import os
-os.environ["TESSDATA_PREFIX"] = r"C:\Program Files\Tesseract-OCR\tessdata"
+
 
 import pytesseract
 import streamlit as st
@@ -7,8 +6,7 @@ from PIL import Image
 from pdf2image import convert_from_bytes
 from pypdf import PdfReader
 
-# Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 # LlamaIndex (old monolithic version)
 from llama_index import VectorStoreIndex, Document, ServiceContext
